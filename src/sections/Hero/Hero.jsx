@@ -42,7 +42,7 @@ function Hero() {
                     <img src={githubIcon}></img>
                 </a>
             </span> 
-            <p className={styles.description}> With a passion for developing CUSTOMISE IT!</p>
+            <p className={styles.description}> Aspiring Java developer passionate about building robust backend applications and continuously learning new technologies</p>
             <a href={CV} download>
                 <button className="hover">Resume</button>
             </a>
