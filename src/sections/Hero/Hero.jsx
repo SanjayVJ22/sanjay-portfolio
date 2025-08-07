@@ -31,7 +31,6 @@ function Hero() {
             src={themeIcon} 
             alt='Color mode icon'/>
         </div>
-        </section>
         <div className={styles.info}>
             <h1>Sanjay <br /> VJ </h1>
             <h2>JAVA Developer</h2>      
@@ -43,11 +42,12 @@ function Hero() {
                     <img src={githubIcon}></img>
                 </a>
             </span> 
-            <p> With a passion for developing CUSTOMISE IT!</p>
+            <p className={styles.description}> With a passion for developing CUSTOMISE IT!</p>
             <a href={CV} download>
                 <button className="hover">Resume</button>
             </a>
         </div>
+        </section>
     </>
   )
 }
