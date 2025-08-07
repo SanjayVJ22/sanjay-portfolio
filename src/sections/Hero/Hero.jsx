@@ -1,12 +1,12 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/hero-img.png'
+import heroImg from '../../assets/photo circle.png'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
 import linkedInLight from '../../assets/linkedin-light.svg'
 import linkedInDark from '../../assets/linkedin-dark.svg'
 import githubIconLight from '../../assets/github-light.svg'
 import githubIconDark from '../../assets/github-dark.svg'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/SANJAY VALIYAVEETTIL JANARDHANAN CV.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 function Hero() {
